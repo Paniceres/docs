@@ -204,7 +204,7 @@ To explain the contents of the file and what happens when the configuration abov
   - We can then refer to this data source as `data.civo_instances_size.small`. To access the sizes later, we can use `data.civo_instances_size.small.sizes` syntax where `sizes` is the data source key that contains all the sizes (list)
 
 - In the *Query instance disk image* block:
-  - We are using the `civo_disk_image` data source to find a list of compute instance diski mages from the `LON1` region that match this filter:
+  - We are using the `civo_disk_image` data source to find a list of compute instance disk images from the `LON1` region that match this filter:
     - name is `debian-10`
   - We can then refer to this data source as `data.civo_disk_image.debian`. To access the sizes later, we can use `data.civo_disk_image.debian.diskimages` syntax where `diskimages` is the data source key that contains all the diskimages (list)
 
